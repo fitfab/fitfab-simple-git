@@ -2,6 +2,7 @@
 
 This `git` plugin is a small list of aliases that will be use within the plugin system of `zsh`.
 
+![alt text](./git-diagram.svg "git diagram")
 
 ```bash
 
