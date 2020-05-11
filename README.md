@@ -1,4 +1,4 @@
-# Simple git commands for zsh
+# Simple git commands for zsh -- this is a setup for a iMac
 
 This `git` plugin is a small list of aliases that will be use within the plugin system of `zsh`.
 
@@ -41,4 +41,18 @@ alias gfo='git fetch origin'
 alias glg='git log --date-order --all --graph --format="%C(green)%h%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s"'
 alias glg2='git log --date-order --all --graph --name-status --format="%C(green)%H%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s"'
 
+```
+
+## Adding syntax highlight
+
+1) you need to install syntax [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) for Zsh. 
+
+`brew install zsh-syntax-highlighting`
+
+2) Then active it within your `.zshrc` file -- this have to be place at the end of the file.
+
+```bash
+# Active zsh-syntax-highlighting.
+# reference: https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
